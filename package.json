@@ -1,0 +1,22 @@
+{
+  "name": "cactus",
+  "version": "1.0.0",
+  "description": "modify again",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend/src/index.js",
+    "build": "cd frontend && npm run build",
+    "install-client": "cd frontend && npm install",
+    "heroku-postbuild": "npm run install-client && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tush-Up/Cactus.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tush-Up/Cactus/issues"
+  },
+  "homepage": "https://github.com/Tush-Up/Cactus#readme"
+}
